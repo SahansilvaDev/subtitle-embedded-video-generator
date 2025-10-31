@@ -13,7 +13,6 @@ This repository contains a small Gradio app and notebooks that use OpenAI's Whis
 ## Repository files
 - `app.py` - Main Gradio application. Loads a Whisper model, converts input video to audio, transcribes/translate, writes a VTT file, and runs ffmpeg to burn subtitles into the output video.
 - `Generate_English_Subtitles_Video_with_OpenAI_Whisper.ipynb` - Notebook demonstrating steps to transcribe, create VTT, and preview the subtitled video.
-- `English AI Video Subtitle Captioning App.ipynb` - Another notebook version showing a similar workflow and helper functions.
 - `12 movie youtubeshorts.mp4` - Example input video (if present in the folder).
 - `subtitles.vtt`, `subtitles_fixed.vtt`, `output.vtt`, `12 movie youtubeshorts.vtt` - example/outputs VTT subtitle files created during testing.
 
